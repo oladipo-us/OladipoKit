@@ -9,6 +9,8 @@ import Foundation
 
 public class UnderConstructionUIPresenter {
 
+    public init() {}
+    
     public func present(screenName: String) -> UnderConstructionUIModel {
         return UnderConstructionUIModelBuilder().setScreenName(screenName).build()
     }
