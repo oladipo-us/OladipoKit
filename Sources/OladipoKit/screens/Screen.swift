@@ -7,4 +7,4 @@
 
 import SwiftUI
 
-protocol Screen: View {}
+public protocol Screen: View {}
