@@ -8,5 +8,10 @@
 import Foundation
 
 public struct UnderConstructionUIModel {
+    
+    public init(constructionMessage: String) {
+        self.constructionMessage = constructionMessage
+    }
+    
     public let constructionMessage: String
 }
